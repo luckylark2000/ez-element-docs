@@ -2,7 +2,6 @@ import { defineConfig } from 'vitepress'
 import { containerPreview, componentPreview } from '@vitepress-demo-preview/plugin'
 import { fileURLToPath, URL } from 'node:url'
 
-// https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: 'Ez Element',
   base: '/ez-element-docs/',
